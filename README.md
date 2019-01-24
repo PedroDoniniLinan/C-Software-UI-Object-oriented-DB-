@@ -5,5 +5,5 @@ This project cannot be run since there's no connection to the database used duri
 
 All source code for the entities and interface screens are inside the folder Mantenikola>Mantenikola.
 
-* It is possible tu run the visual Studio project and see the first two screens, but any other action 
+* It is possible to run the visual Studio project and see the first two screens, but any other action 
 besides that crashes the program, since there is no connection to the dataabse.
