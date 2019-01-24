@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Matenikola.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Inicio.cpp
+c:\users\8988337\desktop\matenikola_v25\matenikola\matenikola\cadastroEntradaConfirmacao.h(335): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  geraRelatorioFinal.cpp
+  geraRelatorioInicial.cpp
+  Generating Code...
+  Matenikola.vcxproj -> C:\Users\8988337\Desktop\Matenikola_v25\Matenikola\x64\Release\...exe

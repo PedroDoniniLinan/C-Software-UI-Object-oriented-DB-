@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3C78B944-C7B0-44D8-A355-19757B60B73A}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Matenikola</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>..</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pcs3443\boost_1_64_0;D:\pcs3443\mysql-connector-c++-noinstall-1.1.9-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>CPPCONN_PUBLIC_FUNC=;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pcs3443\mysql-connector-c++-noinstall-1.1.9-winx64\include;D:\pcs3443\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mysqlcppconn-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\pcs3443\mysql-connector-c++-noinstall-1.1.9-winx64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Atendimento.cpp" />
+    <ClCompile Include="AtendimentoDAO.cpp" />
+    <ClCompile Include="cadastroEntradaConfirmacao.cpp" />
+    <ClCompile Include="cadastroEntradaFinal.cpp" />
+    <ClCompile Include="cadastroEntradaInicial.cpp" />
+    <ClCompile Include="cadastroMotorConfirmacao.cpp" />
+    <ClCompile Include="cadastroMotorDado.cpp" />
+    <ClCompile Include="cadastroMotorInicial.cpp" />
+    <ClCompile Include="confirmaDadoProprietario.cpp" />
+    <ClCompile Include="Controlador.cpp" />
+    <ClCompile Include="dadosCadastroUsuario.cpp" />
+    <ClCompile Include="DAO.cpp" />
+    <ClCompile Include="Endereco.cpp" />
+    <ClCompile Include="EnderecoDAO.cpp" />
+    <ClCompile Include="Fila.cpp" />
+    <ClCompile Include="geraRelatorioDados.cpp" />
+    <ClCompile Include="geraRelatorioFinal.cpp" />
+    <ClCompile Include="geraRelatorioInicial.cpp" />
+    <ClCompile Include="Inicio.cpp" />
+    <ClCompile Include="inicioCadastroProprietario.cpp" />
+    <ClCompile Include="ModoFalha.cpp" />
+    <ClCompile Include="ModoFalhaDAO.cpp" />
+    <ClCompile Include="Motor.cpp" />
+    <ClCompile Include="MotorDAO.cpp" />
+    <ClCompile Include="MyDAO.cpp" />
+    <ClCompile Include="PessoaFisica.cpp" />
+    <ClCompile Include="PessoaJuridica.cpp" />
+    <ClCompile Include="PFDAO.cpp" />
+    <ClCompile Include="PJDAO.cpp" />
+    <ClCompile Include="Relogio.cpp" />
+    <ClCompile Include="Usuario.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Atendimento.h" />
+    <ClInclude Include="AtendimentoDAO.h" />
+    <ClInclude Include="cadastroEntradaConfirmacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="cadastroEntradaFinal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="cadastroEntradaInicial.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="cadastroMotorConfirmacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="cadastroMotorDado.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="cadastroMotorInicial.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="confirmaDadoProprietario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Controlador.h" />
+    <ClInclude Include="dadosCadastroUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DAO.h" />
+    <ClInclude Include="Endereco.h" />
+    <ClInclude Include="EnderecoDAO.h" />
+    <ClInclude Include="Fila.h" />
+    <ClInclude Include="geraRelatorioDados.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="geraRelatorioFinal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="geraRelatorioInicial.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Inicio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="inicioCadastroProprietario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ModoFalha.h" />
+    <ClInclude Include="ModoFalhaDAO.h" />
+    <ClInclude Include="Motor.h" />
+    <ClInclude Include="MotorDAO.h" />
+    <ClInclude Include="MyDAO.h" />
+    <ClInclude Include="PessoaFisica.h" />
+    <ClInclude Include="PessoaJuridica.h" />
+    <ClInclude Include="PFDAO.h" />
+    <ClInclude Include="PJDAO.h" />
+    <ClInclude Include="Relogio.h" />
+    <ClInclude Include="Usuario.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cadastroEntradaConfirmacao.resx">
+      <DependentUpon>cadastroEntradaConfirmacao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroEntradaFinal.resx">
+      <DependentUpon>cadastroEntradaFinal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroMotorConfirmacao.resx">
+      <DependentUpon>cadastroMotorConfirmacao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroMotorDado.resx">
+      <DependentUpon>cadastroMotorDado.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroMotorInicial.resx">
+      <DependentUpon>cadastroMotorInicial.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmaDadoProprietario.resx">
+      <DependentUpon>confirmaDadoProprietario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dadosCadastroUsuario.resx">
+      <DependentUpon>dadosCadastroUsuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geraRelatorioDados.resx">
+      <DependentUpon>geraRelatorioDados.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geraRelatorioFinal.resx">
+      <DependentUpon>geraRelatorioFinal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geraRelatorioInicial.resx">
+      <DependentUpon>geraRelatorioInicial.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicioCadastroProprietario.resx">
+      <DependentUpon>inicioCadastroProprietario.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

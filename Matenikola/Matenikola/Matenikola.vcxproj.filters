@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entidades">
+      <UniqueIdentifier>{34e9dca3-4da5-4500-bc62-21c50f3bac00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DAO">
+      <UniqueIdentifier>{6c369c4c-1334-4e60-8c90-634a94ce91d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Outros">
+      <UniqueIdentifier>{0a75881d-d9c0-4005-82d5-2ea7e13e2498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entidades">
+      <UniqueIdentifier>{44b65c36-8bd3-405f-a7ab-ee754f585f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DAO">
+      <UniqueIdentifier>{5d55def2-9e3a-4fb0-95b0-d927a3a41f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Outros">
+      <UniqueIdentifier>{1ce09c13-8c7f-4141-9183-97daf3f8d749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Telas">
+      <UniqueIdentifier>{22fc4959-a073-48cf-bdc2-74bcbea831ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controlador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Endereco.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="ModoFalha.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="PessoaFisica.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="PessoaJuridica.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="EnderecoDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="PJDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="Fila.cpp">
+      <Filter>Source Files\Outros</Filter>
+    </ClCompile>
+    <ClCompile Include="Relogio.cpp">
+      <Filter>Source Files\Outros</Filter>
+    </ClCompile>
+    <ClCompile Include="DAO.cpp">
+      <Filter>Source Files\Outros</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="Atendimento.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="confirmaDadoProprietario.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="dadosCadastroUsuario.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="Inicio.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="inicioCadastroProprietario.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="AtendimentoDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="cadastroEntradaConfirmacao.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="cadastroEntradaFinal.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="cadastroEntradaInicial.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="cadastroMotorConfirmacao.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="cadastroMotorDado.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="cadastroMotorInicial.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="geraRelatorioFinal.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="geraRelatorioInicial.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="ModoFalhaDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="geraRelatorioDados.cpp">
+      <Filter>Source Files\Telas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controlador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inicioCadastroProprietario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dadosCadastroUsuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="confirmaDadoProprietario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Endereco.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ModoFalha.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="PessoaFisica.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="PessoaJuridica.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Usuario.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="PJDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="EnderecoDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO.h">
+      <Filter>Header Files\Outros</Filter>
+    </ClInclude>
+    <ClInclude Include="Fila.h">
+      <Filter>Header Files\Outros</Filter>
+    </ClInclude>
+    <ClInclude Include="Relogio.h">
+      <Filter>Header Files\Outros</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="Atendimento.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Inicio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AtendimentoDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="cadastroEntradaConfirmacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cadastroEntradaFinal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cadastroEntradaInicial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cadastroMotorInicial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cadastroMotorDado.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cadastroMotorConfirmacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geraRelatorioInicial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geraRelatorioFinal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModoFalhaDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="geraRelatorioDados.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dadosCadastroUsuario.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicioCadastroProprietario.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmaDadoProprietario.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroEntradaConfirmacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroEntradaFinal.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroMotorConfirmacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroMotorDado.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastroMotorInicial.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geraRelatorioFinal.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geraRelatorioInicial.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geraRelatorioDados.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
